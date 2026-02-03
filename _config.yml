@@ -1,1 +1,5 @@
-
+title: Siwakorn Siwaworawet
+logo: /assets/img/headshot.png # You need to add your profile picture to this folder!
+[cite_start]description: Civil Engineering graduate from KMUTT[cite: 297, 298]. [cite_start]Skilled in Structural Analysis (SAP2000, Abaqus), Design Software (AutoCAD, Revit), and Site Engineering[cite: 291, 292, 300].
+show_downloads: true
+theme: jekyll-theme-minimal
