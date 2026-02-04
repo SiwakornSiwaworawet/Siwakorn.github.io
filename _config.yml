@@ -1,3 +1,21 @@
+<div style="text-align: center;">
+  <img src="/assets/img/headshot.png" width="200" style="border-radius: 50%;" />
+
+  <h1 style="margin-bottom: 0;">
+    Siwakorn <br> Siwaworawet
+  </h1>
+
+  <p style="font-weight: bold; color: #555;">
+    Civil Engineer | Structural Analysis & Design Specialist
+  </p>
+
+  <p>
+    <a href="mailto:siwakorn.siwaworawet@gmail.com">Email</a> |
+    <a href="LINK_TO_YOUR_RESUME_PDF">Resume</a> |
+    <a href="LINK_TO_YOUR_LINKEDIN">LinkedIn</a>
+  </p>
+  
+  <br> </div>
 title: Siwakorn Siwaworawet
 logo: /assets/img/headshot_circle.png
 description: Civil Engineering graduate from KMUTT. Skilled in Structural Analysis (SAP2000, Abaqus), AutoCAD, and Revit.
