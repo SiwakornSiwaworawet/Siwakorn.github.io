@@ -1,19 +1,12 @@
-# Siwakorn Siwaworawet
-**Civil Engineer | Structural Analysis & Design Specialist**
-
-📍 **Location:** Bangkok, Thailand  
-📧 **Email:** [siwakorn.siwaworawet@gmail.com](mailto:siwakorn.siwaworawet@gmail.com)  
-📱 **Tel:** 098-907-2546  
-🔗 **LinkedIn:** [Your LinkedIn Profile URL](#) ---
 
 ## 👨‍💻 Skills
-| Category | Tools & Technologies |
-|----------|----------------------|
-| **Engineering & Design** | AutoCAD, Revit, Civil 3D |
-| **Structural Analysis** | SAP2000, Abaqus, VisualFEA (CBT), SUTStructor |
-| **Project Management** | Microsoft Project |
-| **Computational** | MATLAB |
-| **Documentation** | Microsoft Excel, Microsoft Word |
+ Category | Tools & Technologies |
+
+**Engineering & Design** AutoCAD, Revit, Civil 3D |
+**Structural Analysis** | SAP2000, Abaqus, VisualFEA (CBT), SUTStructor |
+**Project Management** | Microsoft Project |
+**Computational** | MATLAB |
+**Documentation** | Microsoft Excel, Microsoft Word |
 
 ---
 
