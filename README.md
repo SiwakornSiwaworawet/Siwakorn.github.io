@@ -1,19 +1,3 @@
-<div align="center">
-  <h1 style="border-bottom: none; margin-bottom: 0;">Siwakorn Siwaworawet</h1>
-  <img src="assets/img/headshot.png" width="200" height="200" style="border-radius: 50%; object-fit: cover; margin: 20px 0;">
-
-  <p>
-    <a href="resume.pdf" style="text-decoration: none;">Resume</a> | 
-    <a href="https://www.linkedin.com/" style="text-decoration: none;">LinkedIn</a> | 
-    <a href="mailto:siwakorn.siwaworawet@gmail.com" style="text-decoration: none;">Email</a>
-  </p>
-
-  <p style="text-align: justify; max-width: 600px; display: inline-block;">
-    I am a Civil Engineering graduate from <strong>KMUTT</strong> focusing on Structural Analysis and Design. I have hands-on experience in site engineering and a strong command of software like SAP2000 and AutoCAD. I love solving complex structural challenges. :)
-  </p>
-</div>
-
-<br><hr>
 
 # Skills
 
