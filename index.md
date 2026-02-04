@@ -3,7 +3,7 @@
     Siwakorn<br>Siwaworawet
   </h1>
 
-  <img src="assets/img/headshot.png" width="220" height="220" style="border-radius: 50%; object-fit: cover; border: 4px solid #eee;">
+  <img src="assets/img/headshot_circle.png" width="220" height="220" style="border-radius: 50%; object-fit: cover; border: 4px solid #eee;">
 
   <p style="margin-top: 15px;">
     <strong><a href="resume.pdf" target="_blank" style="text-decoration: none;">Resume</a></strong> | 
