@@ -13,15 +13,21 @@
       
       <header>
         
-        <h1><a href="{{ "/" | relative_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <h1 style="text-align: center;">
+          <a href="{{ "/" | relative_url }}">
+            Siwakorn<br>Siwaworawet
+          </a>
+        </h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <div style="text-align: center;">
+            <img src="{{site.logo | relative_url}}" alt="Logo" style="border-radius: 50%;" />
+          </div>
         {% endif %}
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        </header>
+      </header>
 
       <section>
 
@@ -30,6 +36,8 @@
       </section>
       
       <footer>
+        <p><small>© 2026 Siwakorn Siwaworawet</small></p>
+      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
