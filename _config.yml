@@ -1,20 +1,5 @@
-<div align="center">
-  <h1 style="font-size: 3rem; margin-bottom: 0;">Siwakorn</h1>
-  <h1 style="font-size: 3rem; margin-top: 0;">Siwaworawet</h1>
-  
-  <img src="/assets/img/headshot.png" width="200" height="200" style="border-radius: 50%; object-fit: cover; margin: 20px 0;">
-  
-  <p>
-    <a href="URL_TO_YOUR_RESUME_PDF">Resume</a> | 
-    <a href="https://www.linkedin.com/">LinkedIn</a> | 
-    <a href="mailto:siwakorn.siwaworawet@gmail.com">Email</a>
-  </p>
-  
-  <p style="max-width: 600px; line-height: 1.6;">
-    Civil Engineering graduate from <strong>KMUTT</strong>. <br>
-    Skilled in Structural Analysis (SAP2000, Abaqus), Design Software (AutoCAD, Revit), and Site Engineering.
-  </p>
-</div>
-
-<br> <div align="left">
-
+title: Siwakorn Siwaworawet
+logo: /assets/img/headshot_circle.png
+description: Civil Engineering graduate from KMUTT. Skilled in Structural Analysis (SAP2000, Abaqus), AutoCAD, and Revit.
+#show_downloads: true
+theme: jekyll-theme-minimal
