@@ -1,35 +1,69 @@
+<div align="center">
+  <h1 style="border-bottom: none; margin-bottom: 0;">Siwakorn Siwaworawet</h1>
+  <img src="assets/img/headshot.png" width="200" height="200" style="border-radius: 50%; object-fit: cover; margin: 20px 0;">
 
-## Skills
+  <p>
+    <a href="resume.pdf" style="text-decoration: none;">Resume</a> | 
+    <a href="https://www.linkedin.com/" style="text-decoration: none;">LinkedIn</a> | 
+    <a href="mailto:siwakorn.siwaworawet@gmail.com" style="text-decoration: none;">Email</a>
+  </p>
 
-* **Engineering & Design Software:** AutoCAD, Revit, Civil 3D
-* **Structural Analysis & Simulation:** SAP2000, Abaqus, VisualFEA (CBT), SUTStructor
-* **Project Management & Planning:** Microsoft Project
-* **Computational & Numerical Tools:** MATLAB
-* **Office & Documentation Tools:** Microsoft Excel, Microsoft Word
+  <p style="text-align: justify; max-width: 600px; display: inline-block;">
+    I am a Civil Engineering graduate from <strong>KMUTT</strong> focusing on Structural Analysis and Design. I have hands-on experience in site engineering and a strong command of software like SAP2000 and AutoCAD. I love solving complex structural challenges. :)
+  </p>
+</div>
 
----
+<br><hr>
 
-##  Professional Experience
+# Skills
 
-### **Site Engineer Intern**
-**CES (Samut Prakan, TH)** | *June 2025 – August 2025*
+* **Engineering & Design Software**: AutoCAD, Revit, Civil 3D
+* **Structural Analysis**: SAP2000, Abaqus, VisualFEA (CBT), SUTStructor
+* **Project Management**: Microsoft Project
+* **Computational Tools**: MATLAB
+* **Documentation**: Microsoft Excel, Microsoft Word
 
-* **Quantity Take-offs:** Accurate calculation for concrete, rebar, backfill, and formwork materials.
-* **On-Site Support:** Managed works for industrial projects including foundations, slabs, piles, and drainage systems.
-* **Verification:** Verified concrete volumes for slabs, ramps, and trenches to ensure design compliance.
-* **Slope & Elevation Analysis:** Processed **700+ elevation points** covering **32,600–35,000 sq.m.** to support drainage design and ground adjustments.
-* **Inspection:** Inspected reinforcement installations and coordinated corrective actions.
-* **Surveying:** Conducted elevation control for large-scale parking area construction.
+<hr>
 
----
+# Work Experience
 
-## 🏗 Projects
+## Site Engineer Intern at **CES**
+**June 2025 - Aug 2025 (2 months)**
+<br>Supported on-site construction for industrial projects, ensuring design compliance and efficient workflow.
 
-### **Post-Earthquake Structural Health Monitoring of Wat Arun**
-*Non-invasive heritage assessment using 3D laser scanning*
+**Accomplishments**
+* Performed slope and elevation analysis for **32,600–35,000 sq.m.** areas, collecting **700+ elevation points**.
+* Calculated accurate quantity take-offs for concrete, rebar, and formwork.
+* Verified concrete volumes for slabs, ramps, and trenches against design specs.
+* Inspected reinforcement installations and coordinated corrective actions onsite.
 
-* **3D Scanning & Analysis:** Processed post-earthquake 3D laser scanning data of the central prang and compared it with pre-event geometry to detect seismic-induced geometric deviations following the 28 March 2025 earthquake, establishing a baseline for structural condition assessment.
-* **Material Benchmarking:** Designed and tested Thai heritage masonry mix proportions, determining mechanical properties and benchmarking them against traditional sticky-rice masonry formulations used in historic structures such as the Great Wall of China.
-* **Model Validation:** Developed and validated a finite element model of masonry specimens, verifying numerical responses against experimental test data to ensure simulation reliability.
-* **Seismic Simulation:** Built a finite element model of the central prang using processed scan geometry and experimentally derived material properties, evaluating its structural response under seismic loading from the 28 March 2025 earthquake.
-* **Workflow Design:** Designed an end-to-end **Scan-to-FEM workflow** converting 3D laser scanning data into an accurate structural model of Wat Arun’s prang, enabling repeatable, non-invasive structural health monitoring aligned with UNESCO conservation principles.
+<hr>
+
+# Projects
+
+## Post-Earthquake Structural Health Monitoring of Wat Arun
+<div style="text-align: justify">
+Non-invasive heritage assessment using 3D laser scanning. We processed post-earthquake 3D scans to detect seismic deviations and designed Thai heritage masonry mixes to benchmark against historic structures.
+</div>
+<br>
+
+**Key Features**
+* **3D Scanning**: Processed post-earthquake data to identify geometric deviations.
+* **Simulation**: Built a **Finite Element Model (FEM)** of the Prang to evaluate seismic response.
+* **Material Testing**: Benchmarked mechanical properties against historic sticky-rice masonry.
+
+<hr>
+
+## Vertical Axis Wind Turbine Design
+<div style="text-align: justify">
+Designed and optimized a high-efficiency Vertical Axis Wind Turbine (VAWT) integrated with Arduino-based RPM sensing.
+</div>
+<br>
+
+**Accomplishments**
+* **Optimization**: Conducted wind velocity testing to improve aerodynamics.
+* **Award**: Selected as **"Best of 3rd-Year Project"** by the faculty.
+
+<hr>
+
+<center>© 2026 Siwakorn Siwaworawet. Powered by Jekyll and the Minimal Theme.</center>
