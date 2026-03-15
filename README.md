@@ -151,6 +151,36 @@ Completed a comprehensive 10-day surveying field camp covering a 5,500 sq.m. are
 </div>
 <br>
 
+<center>
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 5px; margin-bottom: 15px; max-width: 100%; align-items: stretch;">
+
+    <div style="display: flex; flex-direction: column; gap: 10px; flex: 2;">
+      
+      <div style="display: flex; gap: 10px; flex: 1;">
+        <a href="assets/img/KH02.jpg" target="_blank" style="flex: 1; aspect-ratio: 1/1; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <img src="assets/img/KH02.jpg" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </a>
+        <a href="assets/img/KH03.jpg" target="_blank" style="flex: 1; aspect-ratio: 1/1; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <img src="assets/img/KH03.jpg" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+        </a>
+      </div>
+      
+      <a href="assets/img/KH05.jpg" target="_blank" style="flex: 1; display: flex; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="assets/img/KH05.jpg" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </a>
+
+    </div>
+
+    <div style="display: flex; flex: 1;">
+      <a href="assets/img/KH04.jpg" target="_blank" style="flex: 1; display: flex; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="assets/img/KH04.jpg" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </a>
+    </div>
+
+  </div>
+</center>
+<p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
+
 **Key Accomplishments**
 * **Topographical Surveying**: Established robust horizontal and vertical control points via traversing and leveling techniques, collecting over 700 precise elevation data points.
 * **High-Precision Analysis**: Executed traverse computations and adjustments, achieving an impressive accuracy ratio of 1:30,000, alongside detailed profile and cross-section analysis.
