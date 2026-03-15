@@ -72,13 +72,7 @@ Designed and optimized a high-efficiency Vertical Axis Wind Turbine (VAWT) integ
 * **Award**: Selected as **"Best of 3rd-Year Project"** by the faculty.
 
 <center>
-  <img src="assets/img/vawt_project.jpg" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-top: 15px; margin-bottom: 15px;">
-</center>
-
-<hr>
-
-<center>
-  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 15px;">
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 10px;">
     
     <a href="assets/img/vawt_prototype.jpg" target="_blank">
       <img src="assets/img/vawt_prototype.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
@@ -95,5 +89,7 @@ Designed and optimized a high-efficiency Vertical Axis Wind Turbine (VAWT) integ
   </div>
 </center>
 <p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
+
+<hr>
 
 <center>© 2026 Siwakorn Siwaworawet. Powered by Jekyll and the Minimal Theme.</center>
