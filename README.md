@@ -62,14 +62,16 @@ Structural design using the Strength Design Method.
 <hr>
 
 ## Vertical Axis Wind Turbine Design
+**Presented at KMUTT Open House (2024)**
 <div style="text-align: justify">
-Designed and optimized a high-efficiency Vertical Axis Wind Turbine (VAWT) integrated with Arduino-based RPM sensing.
+Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) with the core objective of generating sufficient power to illuminate a connected light bulb.
 </div>
 <br>
 
-**Accomplishments**
-* **Optimization**: Conducted wind velocity testing to improve aerodynamics.
-* **Award**: Selected as **"Best of 3rd-Year Project"** by the faculty.
+**Key Accomplishments & Features**
+* **Development & Coding**: Developed custom Arduino code to accurately measure RPM and process real-time performance data.
+* **Testing & Optimization**: Conducted comprehensive wind velocity tests to refine aerodynamic efficiency and maximize energy output.
+* **Recognition**: Selected by professors as one of the **"Best of 3rd-Year Projects"**.
 
 <center>
   <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 10px;">
@@ -78,12 +80,12 @@ Designed and optimized a high-efficiency Vertical Axis Wind Turbine (VAWT) integ
       <img src="assets/img/vawt_prototype.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
     </a>
 
-    <a href="assets/img/vawt_wind_testing.jpg" target="_blank">
-      <img src="assets/img/vawt_wind_testing.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-    </a>
-
     <a href="assets/img/vawt_award.jpg" target="_blank">
       <img src="assets/img/vawt_award.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+
+    <a href="assets/img/vawt_wind_testing.jpg" target="_blank">
+      <img src="assets/img/vawt_wind_testing.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
     </a>
 
   </div>
