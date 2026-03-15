@@ -20,6 +20,39 @@
 * Verified concrete volumes for slabs, ramps, and trenches against design specs.
 * Inspected reinforcement installations and coordinated corrective actions onsite.
 
+<br>
+<center>
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 5px; margin-bottom: 5px; max-width: 100%;">
+    
+    <div style="display: flex; flex: 2; gap: 10px;">
+      <a href="assets/img/intern01.jpg" target="_blank" style="flex: 1; aspect-ratio: 1/1;">
+        <img src="assets/img/intern01.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; object-fit: cover;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </a>
+      <a href="assets/img/intern02.jpg" target="_blank" style="flex: 1; aspect-ratio: 1/1;">
+        <img src="assets/img/intern02.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; object-fit: cover;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </a>
+    </div>
+
+  </div>
+
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 5px; margin-bottom: 15px; max-width: 100%;">
+
+    <div style="display: flex; flex: 3; gap: 10px;">
+      <a href="assets/img/intern03.jpg" target="_blank" style="flex: 1; aspect-ratio: 1/1;">
+        <img src="assets/img/intern03.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; object-fit: cover;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </a>
+      <a href="assets/img/intern04.jpg" target="_blank" style="flex: 1; aspect-ratio: 1/1;">
+        <img src="assets/img/intern04.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; object-fit: cover;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </a>
+      <a href="assets/img/intern05.jpg" target="_blank" style="flex: 1; aspect-ratio: 1/1;">
+        <img src="assets/img/intern05.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; object-fit: cover;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </a>
+    </div>
+
+  </div>
+</center>
+<p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
+
 <hr>
 
 # Projects
