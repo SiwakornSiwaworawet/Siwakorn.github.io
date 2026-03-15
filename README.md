@@ -1,3 +1,12 @@
+<center>
+  <h3>
+    <a href="#skills" style="text-decoration: none;">🛠 Skills</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+    <a href="#work-experience" style="text-decoration: none;">🏗 Work Experience</a> &nbsp;&nbsp;|&nbsp;&nbsp; 
+    <a href="#projects" style="text-decoration: none;">🚀 Projects</a>
+  </h3>
+</center>
+<hr>
+
 # Skills
 
 * **Engineering & Design Software**: AutoCAD, Revit, Civil 3D
