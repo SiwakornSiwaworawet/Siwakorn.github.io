@@ -22,7 +22,7 @@
 * **Computational Tools**: MATLAB
 * **Documentation**: Microsoft Excel, Microsoft Word
 
-<hr>
+<hr style="margin: 50px 0;">
 
 # Work Experience
 
@@ -72,7 +72,7 @@
 </center>
 <p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
 
-<hr>
+<hr style="margin: 50px 0;">
 
 # Projects
 
@@ -96,7 +96,8 @@ Non-invasive heritage structure assessment using 3D laser scanning and finite el
   </div>
 </center>
 
-<hr>
+<hr style="margin: 50px 0;">
+
 ## Reinforced Concrete Design Project
 **2-Storey Reinforced Concrete Home Office**
 <div style="text-align: justify">
@@ -116,7 +117,7 @@ Structural design using the Strength Design Method.
   </div>
 </center>
 
-<hr>
+<hr style="margin: 50px 0;">
 
 ## Vertical Axis Wind Turbine Design
 **Presented at KMUTT Open House (2024)**
@@ -155,9 +156,8 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
 </center>
 <p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
 
-<hr>
+<hr style="margin: 50px 0;">
 
-<br>
 <center>
   <a href="#top" style="text-decoration: none; font-size: 0.9em; color: #888; letter-spacing: 0.5px;">↑ Back to Top</a>
 </center>
