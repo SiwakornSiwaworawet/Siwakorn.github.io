@@ -1,17 +1,17 @@
+<style>
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 40px; /* ปรับตัวเลขนี้ได้นะ ถ้าอยากให้ขอบบนเว้นเยอะหรือน้อยตอนสไลด์มาถึง */
+  }
+</style>
+
 <center>
-
   <h3 style="font-weight: 400; letter-spacing: 1px;">
-
     <a href="#skills" style="text-decoration: none;">Skills</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-
     <a href="#work-experience" style="text-decoration: none;">Work Experience</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
-
     <a href="#projects" style="text-decoration: none;">Projects</a>
-
   </h3>
-
 </center>
-
 <hr>
 
 # Skills
