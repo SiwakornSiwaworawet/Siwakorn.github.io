@@ -1,7 +1,7 @@
 <style>
   html {
     scroll-behavior: smooth;
-    scroll-padding-top: 50px; /* ปรับตัวเลขนี้ได้นะ ถ้าอยากให้ขอบบนเว้นเยอะหรือน้อยตอนสไลด์มาถึง */
+    scroll-padding-top: 50px;
   }
 </style>
 
@@ -84,26 +84,31 @@ Non-invasive heritage structure assessment using 3D laser scanning and finite el
 <br>
 
 <center>
-  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 15px; max-width: 100%;">
-    
-    <a href="assets/img/watarun01.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
-      <img src="assets/img/watarun01.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-    </a>
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 5px; margin-bottom: 15px; max-width: 100%; align-items: stretch;">
 
-    <a href="assets/img/watarun02.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
-      <img src="assets/img/watarun02.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-    </a>
+    <div style="display: flex; flex-direction: column; gap: 10px; flex: 1;">
+      
+      <a href="assets/img/watarun03.jpg" target="_blank" style="flex: 1; aspect-ratio: 1/1; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="assets/img/watarun03.jpg" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </a>
+      
+      <a href="assets/img/watarun01.jpg" target="_blank" style="flex: 1; aspect-ratio: 1/1; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="assets/img/watarun01.jpg" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </a>
 
-    <a href="assets/img/watarun03.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
-      <img src="assets/img/watarun03.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-    </a>
+    </div>
+
+    <div style="display: flex; flex: 1;">
+      <a href="assets/img/watarun02.jpg" target="_blank" style="flex: 1; display: flex; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="assets/img/watarun02.jpg" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+      </a>
+    </div>
 
   </div>
 </center>
 <p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
 
-### Key Features
-
+**Key Features**
 * **3D Scanning**: Processed post-earthquake 3D laser scan data.
 * **Geometry Analysis**: Compared pre-event and post-event geometry.
 * **Material Testing**: Created masonry prism specimens.
@@ -125,8 +130,7 @@ Structural design using the Strength Design Method.
 </div>
 <br>
 
-### Key Features
-
+**Key Features**
 * **Element Design**: Designed slabs, beams, columns, stairs, and foundations.
 * **Software Utilization**: Used SAP2000, Excel, and Structural Analyzer.
 * **Load Analysis**: Calculated loads and internal forces.
@@ -147,8 +151,7 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
 </div>
 <br>
 
-### Key Accomplishments
-
+**Key Accomplishments**
 * **Recognition**: Selected by professors as one of the **"Best of 3rd-Year Projects"**.
 * **Development & Coding**: Developed custom Arduino code to measure RPM and process real-time performance data.
 * **Testing & Optimization**: Conducted comprehensive wind velocity tests to refine aerodynamic efficiency.
