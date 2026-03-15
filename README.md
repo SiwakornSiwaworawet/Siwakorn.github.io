@@ -64,30 +64,36 @@ Structural design using the Strength Design Method.
 ## Vertical Axis Wind Turbine Design
 **Presented at KMUTT Open House (2024)**
 <div style="text-align: justify">
-Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) with the core objective of generating sufficient power to illuminate a connected light bulb.
+Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented at the KMUTT Open House (2024). The project's core objective was to generate sufficient power to illuminate a connected light bulb. Development involved writing custom Arduino code to accurately measure RPM and to conduct comprehensive wind-velocity tests for performance optimization. Professors selected it as one of the top third-year projects.
 </div>
 <br>
 
-**Key Accomplishments & Features**
-* **Development & Coding**: Developed custom Arduino code to accurately measure RPM and process real-time performance data.
-* **Testing & Optimization**: Conducted comprehensive wind velocity tests to refine aerodynamic efficiency and maximize energy output.
+**Key Accomplishments**
 * **Recognition**: Selected by professors as one of the **"Best of 3rd-Year Projects"**.
+* **Development & Coding**: Developed custom Arduino code to measure RPM and process real-time performance data.
+* **Testing & Optimization**: Conducted comprehensive wind velocity tests to refine aerodynamic efficiency.
 
 <center>
-  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 10px;">
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 10px; max-width: 100%;">
     
-    <a href="assets/img/vawt_prototype.jpg" target="_blank">
-      <img src="assets/img/vawt_prototype.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    <a href="assets/img/vawt01.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
+      <img src="assets/img/vawt01.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; aspect-ratio: 2/3;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
     </a>
 
-    <a href="assets/img/vawt_award.jpg" target="_blank">
-      <img src="assets/img/vawt_award.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    <a href="assets/img/vawt02.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
+      <img src="assets/img/vawt02.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; aspect-ratio: 2/3;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
     </a>
 
-    <a href="assets/img/vawt_wind_testing.jpg" target="_blank">
-      <img src="assets/img/vawt_wind_testing.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    <a href="assets/img/vawt03.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
+      <img src="assets/img/vawt03.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; aspect-ratio: 2/3;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
     </a>
 
+  </div>
+
+  <div style="display: flex; justify-content: center; margin-bottom: 15px;">
+    <a href="assets/img/vawt04.jpg" target="_blank" style="width: 100%;">
+      <img src="assets/img/vawt04.jpg" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.2s; cursor: pointer; aspect-ratio: 16/9;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
   </div>
 </center>
 <p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
