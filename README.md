@@ -1,4 +1,3 @@
-
 # Skills
 
 * **Engineering & Design Software**: AutoCAD, Revit, Civil 3D
@@ -25,28 +24,34 @@
 
 # Projects
 
-## Post-Earthquake Structural Health Monitoring of Wat Arun
+## Structural Health Monitoring of Wat Arun
+**Wat Arun Ratchavararam**
 <div style="text-align: justify">
-Non-invasive heritage assessment using 3D laser scanning. We processed post-earthquake 3D scans to detect seismic deviations and designed Thai heritage masonry mixes to benchmark against historic structures.
+Non-invasive heritage structure assessment using 3D laser scanning and finite element analysis.
 </div>
 <br>
 
 **Key Features**
-* **3D Scanning**: Processed post-earthquake data to identify geometric deviations.
-* **Simulation**: Built a **Finite Element Model (FEM)** of the Prang to evaluate seismic response.
-* **Material Testing**: Benchmarked mechanical properties against historic sticky-rice masonry.
+* **3D Scanning**: Processed post-earthquake 3D laser scan data.
+* **Geometry Analysis**: Compared pre-event and post-event geometry.
+* **Material Testing**: Created masonry prism specimens.
+* **Simulation**: Built finite element model for structural analysis.
+* **Evaluation**: Evaluated settlement and self-weight effects.
 
 <hr>
 
-## Vertical Axis Wind Turbine Design
+## Reinforced Concrete Design Project
+**2-Storey Reinforced Concrete Home Office**
 <div style="text-align: justify">
-Designed and optimized a high-efficiency Vertical Axis Wind Turbine (VAWT) integrated with Arduino-based RPM sensing.
+Structural design using Strength Design Method.
 </div>
 <br>
 
-**Accomplishments**
-* **Optimization**: Conducted wind velocity testing to improve aerodynamics.
-* **Award**: Selected as **"Best of 3rd-Year Project"** by the faculty.
+**Key Features**
+* **Element Design**: Designed slabs, beams, columns, stairs, and foundations.
+* **Software Utilization**: Used SAP2000, Excel, and Structural Analyzer.
+* **Load Analysis**: Calculated loads and internal forces.
+* **Documentation**: Prepared full structural drawings and report.
 
 <hr>
 
