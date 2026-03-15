@@ -53,6 +53,41 @@ Structural design using the Strength Design Method.
 * **Load Analysis**: Calculated loads and internal forces.
 * **Documentation**: Prepared full structural drawings and report.
 
+## Vertical Axis Wind Turbine Design
+<div style="text-align: justify">
+Designed and optimized a high-efficiency Vertical Axis Wind Turbine (VAWT) integrated with Arduino-based RPM sensing.
+</div>
+<br>
+
+**Accomplishments**
+* **Optimization**: Conducted wind velocity testing to improve aerodynamics.
+* **Award**: Selected as **"Best of 3rd-Year Project"** by the faculty.
+
+<center>
+  <img src="assets/img/vawt_project.jpg" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-top: 15px; margin-bottom: 15px;">
+</center>
+
+<hr>
+
+<center>
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 15px;">
+    
+    <a href="assets/img/vawt_prototype.jpg" target="_blank">
+      <img src="assets/img/vawt_prototype.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+
+    <a href="assets/img/vawt_wind_testing.jpg" target="_blank">
+      <img src="assets/img/vawt_wind_testing.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+
+    <a href="assets/img/vawt_award.jpg" target="_blank">
+      <img src="assets/img/vawt_award.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+
+  </div>
+</center>
+<p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
+
 <center>
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-top: 15px; margin-bottom: 15px;">
     <iframe src="https://www.youtube.com/embed/flXTO_AkzQQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
