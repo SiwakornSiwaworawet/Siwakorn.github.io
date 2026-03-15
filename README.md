@@ -189,3 +189,26 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
 <br>
 
 <center>© 2026 Siwakorn Siwaworawet. Powered by Jekyll and the Minimal Theme.</center>
+
+<div id="imageModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.85); backdrop-filter: blur(5px); text-align:center; flex-direction: column; justify-content: center; align-items: center;">
+  <span style="position:absolute; top:20px; right:35px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer; font-family: sans-serif;">&times;</span>
+  <img id="modalImage" style="max-width:90%; max-height:85vh; border-radius:10px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+</div>
+
+<script>
+  // สคริปต์นี้จะวิ่งไปหาทุกรูปที่เป็น .jpg หรือ .png ในเว็บนาย
+  document.querySelectorAll('a[href$=".jpg"], a[href$=".png"], a[href$=".jpeg"]').forEach(link => {
+    link.onclick = function(e) {
+      e.preventDefault(); // ยกเลิกการเด้งไปแท็บใหม่
+      const modal = document.getElementById('imageModal');
+      const modalImg = document.getElementById('modalImage');
+      modal.style.display = "flex"; // โชว์กรอบดำ
+      modalImg.src = this.href; // ดึงรูปมาโชว์
+    }
+  });
+
+  // กดที่รูปหรือพื้นหลังดำๆ เพื่อปิดหน้าต่างได้เลย
+  document.getElementById('imageModal').onclick = function() {
+    this.style.display = "none";
+  }
+</script>
