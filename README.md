@@ -200,4 +200,58 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
 * **Testing & Optimization**: Conducted comprehensive wind velocity tests to refine aerodynamic efficiency.
 
 <center>
-  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 10px; max
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 10px; max-width: 100%;">
+    
+    <a href="assets/img/vawt01.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
+      <img src="assets/img/vawt01.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; aspect-ratio: 2/3;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+
+    <a href="assets/img/vawt02.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
+      <img src="assets/img/vawt02.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; aspect-ratio: 2/3;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+
+    <a href="assets/img/vawt03.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
+      <img src="assets/img/vawt03.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; aspect-ratio: 2/3;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+
+  </div>
+
+  <div style="display: flex; justify-content: center; margin-bottom: 15px;">
+    <a href="assets/img/vawt04.jpg" target="_blank" style="width: 100%;">
+      <img src="assets/img/vawt04.jpg" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.2s; cursor: pointer; aspect-ratio: 16/9;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+    </a>
+  </div>
+</center>
+<p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
+
+<hr style="margin: 50px 0;">
+
+<center>
+  <a href="#top" style="text-decoration: none; font-size: 0.9em; color: #888; letter-spacing: 0.5px;">↑ Back to Top</a>
+</center>
+<br>
+
+<center>© 2026 Siwakorn Siwaworawet. Powered by Jekyll and the Minimal Theme.</center>
+
+<div id="imageModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.85); backdrop-filter: blur(5px); text-align:center; flex-direction: column; justify-content: center; align-items: center;">
+  <span style="position:absolute; top:20px; right:35px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer; font-family: sans-serif;">&times;</span>
+  <img id="modalImage" style="max-width:90%; max-height:85vh; border-radius:10px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+</div>
+
+<script>
+  // สคริปต์นี้จะวิ่งไปหาทุกรูปที่เป็น .jpg หรือ .png ในเว็บนาย
+  document.querySelectorAll('a[href$=".jpg"], a[href$=".png"], a[href$=".jpeg"]').forEach(link => {
+    link.onclick = function(e) {
+      e.preventDefault(); // ยกเลิกการเด้งไปแท็บใหม่
+      const modal = document.getElementById('imageModal');
+      const modalImg = document.getElementById('modalImage');
+      modal.style.display = "flex"; // โชว์กรอบดำ
+      modalImg.src = this.href; // ดึงรูปมาโชว์
+    }
+  });
+
+  // กดที่รูปหรือพื้นหลังดำๆ เพื่อปิดหน้าต่างได้เลย
+  document.getElementById('imageModal').onclick = function() {
+    this.style.display = "none";
+  }
+</script>
