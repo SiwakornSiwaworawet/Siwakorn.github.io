@@ -149,8 +149,14 @@ Completed a comprehensive 10-day surveying field camp covering a 5,500 sq.m. are
 </div>
 <br>
 
+**Key Accomplishments**
+* **Topographical Surveying**: Established robust horizontal and vertical control points via traversing and leveling techniques, collecting over 700 precise elevation data points.
+* **High-Precision Analysis**: Executed traverse computations and adjustments, achieving an impressive accuracy ratio of 1:30,000, alongside detailed profile and cross-section analysis.
+* **Earthwork Modeling**: Conducted cut-and-fill analysis using Civil 3D, comparing existing and proposed soil surfaces to calculate accurate earthwork volumes.
+* **Structural Setting Out**: Successfully integrated 3D architectural house designs onto the finalized topographical map to determine accurate setting-out coordinates for construction.
+
 <center>
-  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 5px; margin-bottom: 15px; max-width: 100%; align-items: stretch;">
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 15px; max-width: 100%; align-items: stretch;">
 
     <div style="display: flex; flex-direction: column; gap: 10px; flex: 2;">
       
@@ -178,12 +184,6 @@ Completed a comprehensive 10-day surveying field camp covering a 5,500 sq.m. are
   </div>
 </center>
 <p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
-
-**Key Accomplishments**
-* **Topographical Surveying**: Established robust horizontal and vertical control points via traversing and leveling techniques, collecting over 700 precise elevation data points.
-* **High-Precision Analysis**: Executed traverse computations and adjustments, achieving an impressive accuracy ratio of 1:30,000, alongside detailed profile and cross-section analysis.
-* **Earthwork Modeling**: Conducted cut-and-fill analysis using Civil 3D, comparing existing and proposed soil surfaces to calculate accurate earthwork volumes.
-* **Structural Setting Out**: Successfully integrated 3D architectural house designs onto the finalized topographical map to determine accurate setting-out coordinates for construction.
 
 <hr style="margin: 50px 0;">
 
