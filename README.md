@@ -35,7 +35,7 @@ Non-invasive heritage structure assessment using 3D laser scanning and finite el
 * **3D Scanning**: Processed post-earthquake 3D laser scan data.
 * **Geometry Analysis**: Compared pre-event and post-event geometry.
 * **Material Testing**: Created masonry prism specimens.
-* **Simulation**: Built finite element model for structural analysis.
+* **Simulation**: Built a finite element model for structural analysis.
 * **Evaluation**: Evaluated settlement and self-weight effects.
 
 <hr>
@@ -43,7 +43,7 @@ Non-invasive heritage structure assessment using 3D laser scanning and finite el
 ## Reinforced Concrete Design Project
 **2-Storey Reinforced Concrete Home Office**
 <div style="text-align: justify">
-Structural design using Strength Design Method.
+Structural design using the Strength Design Method.
 </div>
 <br>
 
@@ -52,6 +52,10 @@ Structural design using Strength Design Method.
 * **Software Utilization**: Used SAP2000, Excel, and Structural Analyzer.
 * **Load Analysis**: Calculated loads and internal forces.
 * **Documentation**: Prepared full structural drawings and report.
+
+<center>
+  <iframe width="100%" height="400" src="https://www.youtube.com/embed/flXTO_AkzQQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-top: 15px; margin-bottom: 15px;"></iframe>
+</center>
 
 <hr>
 
