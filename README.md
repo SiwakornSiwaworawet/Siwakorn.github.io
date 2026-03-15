@@ -5,12 +5,10 @@
   }
 </style>
 
-<div style="display: flex; justify-content: center; gap: 10px; align-items: center; margin-top: 0px; margin-bottom: 20px; font-size: 1em; font-weight: 400;">
-  <a href="#skills" style="text-decoration: none;">Skills</a>
-  <span style="color: #e5e5e5; font-size: 1.2em;">|</span>
-  <a href="#work-experience" style="text-decoration: none;">Work Experience</a>
-  <span style="color: #e5e5e5; font-size: 1.2em;">|</span>
-  <a href="#projects" style="text-decoration: none;">Projects</a>
+<div style="display: flex; justify-content: center; gap: 15px; align-items: center; margin-top: 0px; margin-bottom: 20px; font-size: 1em; font-weight: 500;">
+  <a href="#skills" style="text-decoration: none; color: white; background-color: #3498db; padding: 8px 16px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#2980b9'" onmouseout="this.style.backgroundColor='#3498db'">Skills</a>
+  <a href="#work-experience" style="text-decoration: none; color: white; background-color: #3498db; padding: 8px 16px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#2980b9'" onmouseout="this.style.backgroundColor='#3498db'">Work Experience</a>
+  <a href="#projects" style="text-decoration: none; color: white; background-color: #3498db; padding: 8px 16px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#2980b9'" onmouseout="this.style.backgroundColor='#3498db'">Projects</a>
 </div>
 <hr style="margin-top: 0; margin-bottom: 30px;">
 
@@ -151,14 +149,8 @@ Completed a comprehensive 10-day surveying field camp covering a 5,500 sq.m. are
 </div>
 <br>
 
-**Key Accomplishments**
-* **Topographical Surveying**: Established robust horizontal and vertical control points via traversing and leveling techniques, collecting over 700 precise elevation data points.
-* **High-Precision Analysis**: Executed traverse computations and adjustments, achieving an impressive accuracy ratio of 1:30,000, alongside detailed profile and cross-section analysis.
-* **Earthwork Modeling**: Conducted cut-and-fill analysis using Civil 3D, comparing existing and proposed soil surfaces to calculate accurate earthwork volumes.
-* **Structural Setting Out**: Successfully integrated 3D architectural house designs onto the finalized topographical map to determine accurate setting-out coordinates for construction.
-
 <center>
-  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 15px; max-width: 100%; align-items: stretch;">
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 5px; margin-bottom: 15px; max-width: 100%; align-items: stretch;">
 
     <div style="display: flex; flex-direction: column; gap: 10px; flex: 2;">
       
@@ -187,6 +179,12 @@ Completed a comprehensive 10-day surveying field camp covering a 5,500 sq.m. are
 </center>
 <p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
 
+**Key Accomplishments**
+* **Topographical Surveying**: Established robust horizontal and vertical control points via traversing and leveling techniques, collecting over 700 precise elevation data points.
+* **High-Precision Analysis**: Executed traverse computations and adjustments, achieving an impressive accuracy ratio of 1:30,000, alongside detailed profile and cross-section analysis.
+* **Earthwork Modeling**: Conducted cut-and-fill analysis using Civil 3D, comparing existing and proposed soil surfaces to calculate accurate earthwork volumes.
+* **Structural Setting Out**: Successfully integrated 3D architectural house designs onto the finalized topographical map to determine accurate setting-out coordinates for construction.
+
 <hr style="margin: 50px 0;">
 
 ## Vertical Axis Wind Turbine Design
@@ -202,58 +200,4 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
 * **Testing & Optimization**: Conducted comprehensive wind velocity tests to refine aerodynamic efficiency.
 
 <center>
-  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 10px; max-width: 100%;">
-    
-    <a href="assets/img/vawt01.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
-      <img src="assets/img/vawt01.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; aspect-ratio: 2/3;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-    </a>
-
-    <a href="assets/img/vawt02.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
-      <img src="assets/img/vawt02.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; aspect-ratio: 2/3;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-    </a>
-
-    <a href="assets/img/vawt03.jpg" target="_blank" style="flex: 1; max-width: calc(33.33% - 7px);">
-      <img src="assets/img/vawt03.jpg" width="100%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.2s; cursor: pointer; aspect-ratio: 2/3;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'">
-    </a>
-
-  </div>
-
-  <div style="display: flex; justify-content: center; margin-bottom: 15px;">
-    <a href="assets/img/vawt04.jpg" target="_blank" style="width: 100%;">
-      <img src="assets/img/vawt04.jpg" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); transition: transform 0.2s; cursor: pointer; aspect-ratio: 16/9;" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
-    </a>
-  </div>
-</center>
-<p style="text-align: center; font-size: 0.8em; color: gray;"><em>Click on an image to view full size</em></p>
-
-<hr style="margin: 50px 0;">
-
-<center>
-  <a href="#top" style="text-decoration: none; font-size: 0.9em; color: #888; letter-spacing: 0.5px;">↑ Back to Top</a>
-</center>
-<br>
-
-<center>© 2026 Siwakorn Siwaworawet. Powered by Jekyll and the Minimal Theme.</center>
-
-<div id="imageModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.85); backdrop-filter: blur(5px); text-align:center; flex-direction: column; justify-content: center; align-items: center;">
-  <span style="position:absolute; top:20px; right:35px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer; font-family: sans-serif;">&times;</span>
-  <img id="modalImage" style="max-width:90%; max-height:85vh; border-radius:10px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
-</div>
-
-<script>
-  // สคริปต์นี้จะวิ่งไปหาทุกรูปที่เป็น .jpg หรือ .png ในเว็บนาย
-  document.querySelectorAll('a[href$=".jpg"], a[href$=".png"], a[href$=".jpeg"]').forEach(link => {
-    link.onclick = function(e) {
-      e.preventDefault(); // ยกเลิกการเด้งไปแท็บใหม่
-      const modal = document.getElementById('imageModal');
-      const modalImg = document.getElementById('modalImage');
-      modal.style.display = "flex"; // โชว์กรอบดำ
-      modalImg.src = this.href; // ดึงรูปมาโชว์
-    }
-  });
-
-  // กดที่รูปหรือพื้นหลังดำๆ เพื่อปิดหน้าต่างได้เลย
-  document.getElementById('imageModal').onclick = function() {
-    this.style.display = "none";
-  }
-</script>
+  <div style="display: flex; gap: 10px; justify-content: center; margin-top: 15px; margin-bottom: 10px; max
