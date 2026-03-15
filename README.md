@@ -157,4 +157,10 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
 
 <hr>
 
+<br>
+<center>
+  <a href="#top" style="text-decoration: none; font-size: 0.9em; color: #888; letter-spacing: 0.5px;">↑ Back to Top</a>
+</center>
+<br>
+
 <center>© 2026 Siwakorn Siwaworawet. Powered by Jekyll and the Minimal Theme.</center>
