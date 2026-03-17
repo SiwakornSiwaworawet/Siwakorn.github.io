@@ -190,7 +190,7 @@ Completed a comprehensive 10-day surveying field camp covering a 5,500 sq.m. are
 ## Vertical Axis Wind Turbine Design
 **Presented at KMUTT Open House (2024)**
 <div style="text-align: justify">
-Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented at the KMUTT Open House (2024). The project's core objective was to generate sufficient power to illuminate a connected light bulb. Development involved writing custom Arduino code to accurately measure RPM and to conduct comprehensive wind-velocity tests for performance optimization. Professors selected it as one of the top third-year projects.
+Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented at the KMUTT Open House (2024). The project's core objective was to generate sufficient power to illuminate a connected light bulb. Development involved writing custom Arduino code to accurately measure RPM and conduct comprehensive wind-velocity tests to optimize performance. Professors selected it as one of the top third-year projects.
 </div>
 <br>
 
@@ -232,8 +232,8 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
 <br>
 
 <center>
-© 2026 Siwakorn Siwaworawet. All rights reserved.  
-Powered by Jekyll and the Minimal Theme.
+<div>© 2026 Siwakorn Siwaworawet. All rights reserved.</div>
+<div>Powered by Jekyll and the Minimal Theme.</div>
 </center>
 
 <div id="imageModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.85); backdrop-filter: blur(5px); text-align:center; flex-direction: column; justify-content: center; align-items: center;">
