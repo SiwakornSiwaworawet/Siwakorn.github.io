@@ -25,8 +25,9 @@
 # Work Experience
 
 ## Site Engineer Intern at **CES**
-**June 2025 - Aug 2025 (2 months)**
-<br>Supported on-site construction for industrial projects, ensuring design compliance and efficient workflow.
+**June 2025 - Aug 2025 (2 months) | Samut Prakan, Thailand**
+<br>**Project:** Turnkey Construction for Thanakorn Vegetable Oil Products Co., Ltd. (Tank Car Loading Facility, Retaining Wall, and Truck Parking Area)
+<br>Supported on-site construction operations for this major industrial project, ensuring strict design compliance and seamless workflow efficiency.
 
 **Accomplishments**
 * Performed slope and elevation analysis for **32,600–35,000 sq.m.** areas, collecting **700+ elevation points**.
