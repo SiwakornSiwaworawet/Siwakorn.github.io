@@ -237,18 +237,25 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
 </center>
 
 <div id="imageModal" style="display:none; position:fixed; z-index:9999; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.85); backdrop-filter: blur(5px); text-align:center; flex-direction: column; justify-content: center; align-items: center;">
+  
   <span id="closeModal" style="position:absolute; top:20px; right:35px; color:#fff; font-size:40px; font-weight:bold; cursor:pointer; font-family: sans-serif;">&times;</span>
   
-  <a id="prevBtn" style="position:absolute; top:50%; left:5%; transform:translateY(-50%); color:#fff; font-size:50px; font-weight:bold; cursor:pointer; user-select:none; text-decoration:none; transition: color 0.3s;" onmouseover="this.style.color='#ccc'" onmouseout="this.style.color='#fff'">&#10094;</a>
+  <div style="position:absolute; top:30px; left:35px; display:flex; gap:20px; z-index:10000;">
+    <span id="zoomOutBtn" style="color:#fff; font-size:40px; font-weight:bold; cursor:pointer; user-select:none; transition: color 0.3s;" onmouseover="this.style.color='#ccc'" onmouseout="this.style.color='#fff'">−</span>
+    <span id="zoomInBtn" style="color:#fff; font-size:35px; font-weight:bold; cursor:pointer; user-select:none; transition: color 0.3s;" onmouseover="this.style.color='#ccc'" onmouseout="this.style.color='#fff'">+</span>
+  </div>
+
+  <a id="prevBtn" style="position:absolute; top:50%; left:5%; transform:translateY(-50%); color:#fff; font-size:50px; font-weight:bold; cursor:pointer; user-select:none; text-decoration:none; transition: color 0.3s; z-index:10000;" onmouseover="this.style.color='#ccc'" onmouseout="this.style.color='#fff'">&#10094;</a>
   
-  <img id="modalImage" style="max-width:85%; max-height:85vh; border-radius:10px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+  <img id="modalImage" style="max-width:85%; max-height:85vh; border-radius:10px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); transition: transform 0.3s ease;">
   
-  <a id="nextBtn" style="position:absolute; top:50%; right:5%; transform:translateY(-50%); color:#fff; font-size:50px; font-weight:bold; cursor:pointer; user-select:none; text-decoration:none; transition: color 0.3s;" onmouseover="this.style.color='#ccc'" onmouseout="this.style.color='#fff'">&#10095;</a>
+  <a id="nextBtn" style="position:absolute; top:50%; right:5%; transform:translateY(-50%); color:#fff; font-size:50px; font-weight:bold; cursor:pointer; user-select:none; text-decoration:none; transition: color 0.3s; z-index:10000;" onmouseover="this.style.color='#ccc'" onmouseout="this.style.color='#fff'">&#10095;</a>
 </div>
 
 <script>
   let currentGallery = [];
   let currentIndex = 0;
+  let currentScale = 1; // ตัวแปรเก็บค่าการซูม
 
   // วิ่งหาทุกลิงก์ที่เป็นรูปภาพ
   document.querySelectorAll('a[href$=".jpg"], a[href$=".png"], a[href$=".jpeg"]').forEach(link => {
@@ -257,11 +264,9 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
       const galleryName = this.getAttribute('data-gallery');
       
       if (galleryName) {
-        // ดึงรูปทั้งหมดที่อยู่กรุ๊ปเดียวกันมาเก็บไว้ใน Array
         currentGallery = Array.from(document.querySelectorAll(`a[data-gallery="${galleryName}"]`));
         currentIndex = currentGallery.indexOf(this);
       } else {
-        // ถ้ารูปไหนไม่ได้ใส่ป้ายชื่อกรุ๊ปไว้ ให้เล่นแค่รูปเดียว
         currentGallery = [this];
         currentIndex = 0;
       }
@@ -271,15 +276,33 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
     }
   });
 
-  // ฟังก์ชันสลับรูป
+  // ฟังก์ชันสลับรูปและรีเซ็ตซูม
   function updateModalImage() {
     const modalImg = document.getElementById('modalImage');
     modalImg.src = currentGallery[currentIndex].href;
+    currentScale = 1; // รีเซ็ตซูมกลับเป็น 1 ทุกครั้งที่เปลี่ยนรูป
+    modalImg.style.transform = `scale(${currentScale})`;
   }
+
+  // กดปุ่ม + (ซูมเข้า)
+  document.getElementById('zoomInBtn').onclick = function(e) {
+    e.stopPropagation(); // กันไม่ให้รูปปิด
+    currentScale += 0.25; // ขยายทีละ 25%
+    document.getElementById('modalImage').style.transform = `scale(${currentScale})`;
+  };
+
+  // กดปุ่ม - (ซูมออก)
+  document.getElementById('zoomOutBtn').onclick = function(e) {
+    e.stopPropagation(); // กันไม่ให้รูปปิด
+    if (currentScale > 0.5) { // กันไม่ให้หดเล็กเกินไป
+      currentScale -= 0.25;
+      document.getElementById('modalImage').style.transform = `scale(${currentScale})`;
+    }
+  };
 
   // กดปุ่มซ้าย (ย้อนกลับ)
   document.getElementById('prevBtn').onclick = function(e) {
-    e.stopPropagation(); // ไม่ให้ปิดหน้าต่าง Modal
+    e.stopPropagation(); 
     if (currentGallery.length > 1) {
       currentIndex = (currentIndex - 1 + currentGallery.length) % currentGallery.length;
       updateModalImage();
@@ -288,18 +311,20 @@ Designed, analyzed, and optimized a Vertical Axis Wind Turbine (VAWT) presented 
 
   // กดปุ่มขวา (ถัดไป)
   document.getElementById('nextBtn').onclick = function(e) {
-    e.stopPropagation(); // ไม่ให้ปิดหน้าต่าง Modal
+    e.stopPropagation(); 
     if (currentGallery.length > 1) {
       currentIndex = (currentIndex + 1) % currentGallery.length;
       updateModalImage();
     }
   };
 
-  // กดพื้นหลังดำหรือกากบาทเพื่อปิด (กันบั๊กกดลูกศรแล้วปิดเอง)
+  // กดพื้นหลังดำหรือกากบาทเพื่อปิด (บวกเช็คปุ่มซูมด้วยกันบั๊ก)
   document.getElementById('imageModal').onclick = function(e) {
     if (e.target !== document.getElementById('modalImage') && 
         e.target !== document.getElementById('prevBtn') && 
-        e.target !== document.getElementById('nextBtn')) {
+        e.target !== document.getElementById('nextBtn') &&
+        e.target !== document.getElementById('zoomInBtn') &&
+        e.target !== document.getElementById('zoomOutBtn')) {
       this.style.display = "none";
     }
   };
