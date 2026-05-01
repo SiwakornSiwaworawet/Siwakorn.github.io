@@ -52,7 +52,7 @@ scroll-padding-top: 50px;
 
 ## Site Engineer Intern at **CES**
 
-**June 2025 - Aug 2025 (2 months) | Samut Prakan, Thailand**
+<strong>June 2025 - Aug 2025 (2 months) | Samut Prakan, Thailand</strong>
 
 <br>**Project:** Turnkey Construction for Thanakorn Vegetable Oil Products Co., Ltd. (Tank Car Loading Facility, Retaining Wall, and Truck Parking Area)
 
