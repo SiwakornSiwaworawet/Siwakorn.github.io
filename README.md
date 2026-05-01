@@ -26,7 +26,7 @@ scroll-padding-top: 50px;
 
 
 
-# Skills
+<h1 id="skills" style="color: #3498db;">Skills</h1>
 
 
 
@@ -46,13 +46,13 @@ scroll-padding-top: 50px;
 
 
 
-# Work Experience
+<h1 id="work-experience" style="color: #3498db;">Work Experience</h1>
 
 
 
 ## Site Engineer Intern at **CES**
 
-**June 2025 - Aug 2025 (2 months)  Samut Prakan, Thailand**
+<div style="display: flex; justify-content: space-between; font-weight: 600; color: #555;"><span>June 2025 - Aug 2025 (2 months)</span><span>Samut Prakan, Thailand</span></div>
 
 <br>**Project:** Turnkey Construction for Thanakorn Vegetable Oil Products Co., Ltd. (Tank Car Loading Facility, Retaining Wall, and Truck Parking Area)
 
@@ -144,7 +144,7 @@ scroll-padding-top: 50px;
 
 
 
-# Projects
+<h1 id="projects" style="color: #3498db;">Projects</h1>
 
 
 
