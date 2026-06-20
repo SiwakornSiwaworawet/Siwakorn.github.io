@@ -32,13 +32,13 @@ scroll-padding-top: 50px;
 
 * **Engineering & Design Software**: AutoCAD, Revit, Civil 3D
 
-* **Structural Analysis**: SAP2000, Abaqus, VisualFEA (CBT), SUTStructor
+* **Structural Analysis & Simulation**: SAP2000, Abaqus, VisualFEA (CBT), SUTStructor, Structural-analyser
 
-* **Project Management**: Microsoft Project
+* **Project Management & Planning**: Microsoft Project, Navisworks, Cost Estimation, Quantity Takeoff
 
-* **Computational Tools**: MATLAB
+* **Computational & Numerical Tools**: MATLAB
 
-* **Documentation**: Microsoft Excel, Microsoft Word
+* **Office & Documentation Tools**: Microsoft Excel, Microsoft Word
 
 
 
