@@ -1,14 +1,9 @@
-title: Siwakorn Siwaworawet
-logo: /assets/img/headshot_circle.png
-# The symbol '>' lets us write multiple lines of HTML text below
 description: >
   <center>
     <a href="https://www.linkedin.com/in/siwakorn-siwaworawet-92b085384/">LinkedIn</a> | 
     <a href="mailto:siwakorn.siwaworawet@gmail.com">Email</a>
   </center>
   <br>
-  Recent Civil Engineering graduate from <strong>KMUTT</strong>, with a focus on structural analysis and design. Hands-on experience ranges from site engineering and quantity take-offs to structural health monitoring and reinforced concrete design, using tools like SAP2000, Abaqus, and AutoCAD. Looking to bring that mix of field and analytical experience to real-world structural engineering projects.
+  Recent Civil Engineering graduate from <strong>KMUTT</strong>, with hands-on site engineering experience covering quantity take-offs, site surveying, and elevation control on industrial construction projects. Skilled in AutoCAD, Civil 3D, and Microsoft Project, with a strong foundation in structural analysis (SAP2000, Abaqus).
   <br><br>
   <strong>Email:</strong> siwakorn.siwaworawet@gmail.com
-show_downloads: false
-theme: jekyll-theme-minimal
